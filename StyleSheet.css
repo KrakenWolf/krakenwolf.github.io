@@ -11,7 +11,7 @@ h1 {
     text-align: center;
     border: dashed;
     border-radius: 5px 5px;
-    display: inline;
+    display: block;
 }
 
 h2 {
@@ -20,29 +20,21 @@ h2 {
     border-radius: 10px 10px;
 }
 
-h3 
-{
-
-}
-
-h4 
-{
-
-}
-
-h5 
-{
-
-}
-
 p
 {
     text-align:center;
-    
+    display:block
 }
 
-.logoImage{
-    width:100px;
-    height:100px;
-    display:inline;
+.logoImage {
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+
+.vanImage {
+    width: 250px;
+    height: 100px;
+    align-items:flex-end;
+    padding:inherit;
 }
