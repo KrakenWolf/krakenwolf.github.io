@@ -1,18 +1,23 @@
 ﻿body 
 {
-    justify-content:center
+    justify-content:center;
 }
 
 header {
-    border: dashed
+    border: dashed;
 }
 
 h1 {
-    border: dashed
+    text-align: center;
+    border: dashed;
+    border-radius: 5px 5px;
+    display: inline;
 }
 
 h2 {
-    border: dashed
+    text-align: center;
+    border: dashed;
+    border-radius: 10px 10px;
 }
 
 h3 
@@ -32,5 +37,12 @@ h5
 
 p
 {
-    grid:auto-flow
+    text-align:center;
+    
+}
+
+.logoImage{
+    width:100px;
+    height:100px;
+    display:inline;
 }
