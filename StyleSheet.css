@@ -3,19 +3,16 @@
     justify-content:center
 }
 
-header
-{
-
+header {
+    border: dashed
 }
 
-h1 
-{
-
+h1 {
+    border: dashed
 }
 
-h2 
-{
-
+h2 {
+    border: dashed
 }
 
 h3 
@@ -35,5 +32,5 @@ h5
 
 p
 {
-
+    grid:auto-flow
 }
