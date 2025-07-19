@@ -4,3 +4,24 @@
     display: inline-block;
 }
 
+.emailButton {
+    border: outset;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+    background-color: royalblue;
+    border-color: royalblue;
+    display:inline-block;
+}
+
+    .emailButton:hover {
+        border: outset;
+        border-radius: 6px;
+        padding: 10px 10px 10px 10px;
+        background-color: blue;
+        border-color: blue;
+    }
+
+.emailBurronText{
+    color:white;
+}
+
